@@ -23,6 +23,7 @@ end
 tap "homebrew/bundle"
 tap "homebrew/core"
 tap "koekeishiya/formulae"
+tap "go-task/tap"
 
 # packages
 brew "bat" # better cat
@@ -51,6 +52,7 @@ brew "wdiff" # word differences in text files
 brew "wget" # internet file retriever
 brew "z" # switch between most used directories
 brew "zsh" # zsh (latest)
+brew "go-task" # taskfile.dev alternative to make
 
 # MacOs Tools
 brew "yabai"
